@@ -1,0 +1,29 @@
+{
+    "author": "connor@trigger.io", 
+    "config_version": "2", 
+    "description": "View ingredients for your favourite recipes", 
+    "modules": {
+        "contact": true, 
+        "event": true, 
+        "file": true, 
+        "geolocation": true, 
+        "is": true, 
+        "logging": {
+            "level": "INFO"
+        }, 
+        "message": true, 
+        "notification": true, 
+        "prefs": true, 
+        "request": {
+            "permissions": []
+        }, 
+        "sms": true, 
+        "tabbar": true, 
+        "tabs": true, 
+        "tools": true, 
+        "topbar": true
+    }, 
+    "name": "Recipe list", 
+    "platform_version": "v1.3", 
+    "version": "0.1"
+}
