@@ -1,29 +1,30 @@
 {
+    "config_version": "3", 
     "author": "connor@trigger.io", 
-    "config_version": "2", 
-    "description": "View ingredients for your favourite recipes", 
     "modules": {
-        "contact": true, 
-        "event": true, 
-        "file": true, 
         "geolocation": true, 
-        "is": true, 
         "logging": {
             "level": "INFO"
         }, 
-        "message": true, 
+        "file": true, 
+        "tabs": true, 
         "notification": true, 
-        "prefs": true, 
+        "is": true, 
+        "sms": true, 
         "request": {
             "permissions": []
         }, 
-        "sms": true, 
+        "event": true, 
+        "reload": true, 
+        "contact": true, 
         "tabbar": true, 
-        "tabs": true, 
+        "message": true, 
+        "prefs": true, 
         "tools": true, 
         "topbar": true
     }, 
     "name": "Recipe list", 
-    "platform_version": "v1.3", 
-    "version": "0.1"
+    "platform_version": "v1.4", 
+    "version": "0.1", 
+    "description": "View ingredients for your favourite recipes"
 }
