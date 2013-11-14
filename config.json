@@ -1,30 +1,51 @@
 {
-    "config_version": "3", 
-    "author": "connor@trigger.io", 
-    "modules": {
-        "geolocation": true, 
-        "logging": {
-            "level": "INFO"
-        }, 
-        "file": true, 
-        "tabs": true, 
-        "notification": true, 
-        "is": true, 
-        "sms": true, 
-        "request": {
-            "permissions": []
-        }, 
-        "event": true, 
-        "reload": true, 
-        "contact": true, 
-        "tabbar": true, 
-        "message": true, 
-        "prefs": true, 
-        "tools": true, 
-        "topbar": true
-    }, 
-    "name": "Recipe list", 
-    "platform_version": "v1.4", 
-    "version": "0.1", 
-    "description": "View ingredients for your favourite recipes"
+	"config_version": "4",
+	"name": "Recipe list",
+	"author": "connor@trigger.io",
+	"modules": {
+		"geolocation": {
+			"version": "2.0"
+		},
+		"file": {
+			"version": "2.2"
+		},
+		"tabs": {
+			"version": "2.5"
+		},
+		"notification": {
+			"version": "2.2"
+		},
+		"topbar": {
+			"version": "2.3"
+		},
+		"sms": {
+			"version": "2.0"
+		},
+		"request": {
+			"version": "2.3",
+			"config": {
+				"permissions": []
+			}
+		},
+		"contact": {
+			"version": "2.2"
+		},
+		"tabbar": {
+			"version": "2.2"
+		},
+		"prefs": {
+			"version": "2.0"
+		}
+	},
+	"platform_version": "v2.0.4",
+	"version": "0.1",
+	"core": {
+		"general": {
+			"reload": true,
+			"logging": {
+				"level": "INFO"
+			}
+		}
+	},
+	"description": "View ingredients for your favourite recipes"
 }
